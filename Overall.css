@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; 
+}
+
+
+body {
+  background-image: url("https://scontent.fmnl3-1.fna.fbcdn.net/v/t1.15752-9/188465207_495149495259351_2371759520779875277_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=ae9488&_nc_eui2=AeGRZYpEE4SlGjV6-kalnbwwsRdNIpG2XLKxF00ikbZcsmkwxjV6MWE3FrTO0rl8LVhsNZ8ozXFbRf98vq3wtpLd&_nc_ohc=mCyGsZZARJMAX__iUjU&_nc_ht=scontent.fmnl3-1.fna&oh=e5df5820e26eedc9a578a0e115bb50e8&oe=60C9E919");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+header {
+	margin: 20px 10px 0px 10px;
+	padding: 15px 30px;
+	background-color: rgba(165, 165, 141, 0.5);
+	color: gold;
+	
+	font-size: 20px;
+	font-weight: 500;
+}
+
+header div {
+	float: right;
+}
+header div a {
+	margin-left: 20px;
+	color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: gold;
+}
